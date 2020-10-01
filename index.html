@@ -4,25 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matemáticas</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
     <div id="principal">
-        <header>
-            <div id="logo">
-                <h2 class="titulo">Matemáticas</h2>
-            </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Matemáticas<br><small>Aprendiendo a desarollar la lógica matemática</small></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <nav class="menu">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Regla de tres</a></li>
-                    <li><a href="#">Exponentes</a></li>
+           <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto"> 
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="regla3.html">Regla de tres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="potencia.html">Exponentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
                 </ul>
-            </nav>
-        </header>
+           </div>
+        </nav>
 
-        <section id="slide">
+        <div class="container">
+            <div class="my-5">
+                <div class="text-center">
+                    <img src="img/matematicas.jpg" class="img-fluid" alt="responsive image" width="50%" height="auto">
+                    <h2 class="my-3">Importancia de las matematicas</h2>
+                </div>
+                
+            <div class="row my-3">
+                <section class="col-md-6 text-justify">
+                    <p>
+                        Las matemáticas son fundamentales para el desarrollo intelectual de niños, jovenes, adultos, 
+                        a cualquier persona que necesite, y es que quien no necesita de esta matería basica, nos ayuda a ser lógicos, 
+                        a razonar ordenadamente y a tener una mente preparada para el pensamiento, la crítica y la abstracción.
+                        Las matemáticas, además de desarrollar la intuición y el espíritu crítico, constituyen 
+                        un elemento insustituible de formación en el rigor, formalismo y razonamiento. Sin 
+                        embargo, niños, jóvenes y adultos suelen estar poco interesados en el desarrollo de su 
+                        destreza matemática y los estudiantes, en algunos casos, experimentan desasosiego cuando
+                        presienten que la hora de la clase de Matemáticas se acerca. Este rechazo a las 
+                        matemáticas es la consecuencia directa de la influencia de variables de naturaleza
+                        cognitiva y emocional: por una parte, la dificultad objetiva de las matemáticas como 
+                        disciplina y, por otra, la manera subjetiva con que el individuo afronta esta dificultad.
+                    </p>
+                </section>
+    
+                <section class="col-md-6 text-justify">
+                    <p>Sin embargo, la opinión mayoritaria es que las matemáticas juegan un papel importante en 
+                        la sociedad. En efecto, las matemáticas están presentes en cualquier faceta de nuestra 
+                        vida diaria: el uso de los cajeros automáticos de un banco, las comunicaciones por 
+                        telefonía móvil, la predicción del tiempo, las nuevas tecnologías, la arquitectura e 
+                        incluso, aunque no es tan conocido, también en una obra de arte, en la música, en la 
+                        publicidad, en el cine o en la lectura de un libro. De hecho, muchas veces el papel que 
+                        juegan las matemáticas en la vida cotidiana es el de detectar mentiras y engaños que, en 
+                        ocasiones, se producen en las facturas con el IVA desglosado, en un crédito financiero, 
+                        en las tasas de interés de un préstamo hipotecario o en la adecuación de los salarios a 
+                        la pérdida de poder adquisitivo. Incluso el sistema ISBN de los libros o el propio NIF 
+                        que identifica a cada persona presenta algún factor de comprobación basado en el concepto 
+                        matemático de congruencia.
+                    </p>
+                </section>
+
+                <div class="text-center">
+                    <p>
+                        Por eso en esta página te presentaremos 2 cursos de temas basicos que te ayudaran en cualquier ambito de la vida, 
+                        de gran ayuda tanto en lo profesional o solo en la vida diaria, aplicables a sacar cuentas de una manera mas efectiva 
+                        con los exponentes o encontrar valores representables en cantidades o tiempos con la regla de tres.
+                    </p>
+                    <h2>
+                        Tabla de contenidos
+                    </h2>
+
+                    <table class="table my-3">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Contenido</th>
+                                <th scope="col">Descripción</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Regla de tres</td>
+                                <td>Forma de resolver problemas de proporcionalidad entre tres valores conocidos y una incógnita</td>
+                            </tr>
+                            <tr>
+                                <td>Exponentes</td>
+                                <td>operación matemática entre dos términos denominados: base y exponente</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <footer>
+                <p class="text-center"> 
+                    (c) Todos los derechos reservados - 2020 <br>
+                    Diseñado por Hanzel Urrutia
+                </p>
+            </footer>
+        </div>
+
+        <!--section id="slide">
             <img src="img/matematicas.jpg" width="60%" height="auto"> 
         </section>
         
@@ -91,7 +179,10 @@
                 (c) Todos los derechos reservados - 2020 <br>
                 Diseñado por Hanzel Urrutia
             </p>
-        </footer>
+        </footer-->
     </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
