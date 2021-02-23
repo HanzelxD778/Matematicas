@@ -4,63 +4,170 @@
     <head>
         <meta charset="UTF-8">
         <title>REGLA DE 3</title>
-        <link rel="stylesheet" type="text/css" href="css/estiloR.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
 
     <body>
-       <div id="principal">
-           <header>
-               <div ide="Logo">
-                   <h2 class="Titulo">REGLA DE 3</h2>
-                   <p class="Sub-Titulo">“Nunca te rindas tratando de hacer lo que realmente deseas hacer. Donde hay amor e inspiración, nada te puede salir mal”.<br><br></p>
-               </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Regla de tres<br><small>Aprendiendo regla de tres inversa y directa</small></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-               <nav class="categoria">
-                   <ul>
-                       <li><a href="index.html">Inicio</a></li>
-                       <li><a href="ejemplo.html">Ejemplos</a></li>
-                       <li><a href="contacto.html">Contactos</a></li>
-                   </ul>
-               </nav>
-           </header>
+           <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto"> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="regla3.html">Regla de tres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="potencia.html">Exponentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+           </div>
+        </nav>
 
-           <section id="slide">
-               <br>
-               <img src="img/como-hacer-regla-de-tres.webp" Width="900" heigth="250">
-           </section>
+        <div class="container">
+            <div class="my-5">
+                <div class="text-center">
+                    <img src="img/pasos.PNG" class="img-fluid" alt="responsive image" width="50%" height="auto">
+                </div>
+                
+                <div class="row my-5">
+                    <section class="col-md-6 text-justify">
+                        <div class="text-center my-3">
+                            <img src="img/directa.jpg" class="img-fluid" alt="responsive image" width="50%" height="auto">
+                        </div>
+                        <p>
+                            La regla de tres simple directa se utiliza cuando el problema trata de dos 
+                            magnitudes directamente proporcionales. Podemos decir que dos magnitudes son 
+                            directamente proporcionales cuando al multiplicar o dividir una de ellas por 
+                            un número, la otra queda multiplicada o dividida respectivamente por el mismo 
+                            número.
+                        </p>
+                    </section>
+    
+                    <section class="col-md-6 text-justify">
+                        <div class="text-center my-3">
+                            <img src="img/inversa.jpg" class="img-fluid" alt="responsive image" width="50%" height="auto">
+                        </div>
+                        <p>
+                            La regla de tres simple inversa se utiliza cuando el problema trata de dos 
+                            magnitudes inversamente proporcionales. Podemos decir que dos magnitudes son 
+                            inversamente proporcionales cuando al multiplicar una de ellas por un número, 
+                            la otra se divide por el mismo, y viceversa.
+                        </p>
+                    </section>
+                </div>
+                
+                <div class="text-center">
+                    <h2>Definición</h2>
+                    <p class="my-3">
+                        La regla de tres o regla de tres simple es una forma de resolver problemas de proporcionalidad entre tres valores
+                        conocidos y una incógnita, estableciendo una relación de proporcionalidad entre todos ellos.
+                        Es decir, lo que se pretende con ella es hallar el cuarto término de una proporción conociendo los otros tres.
+                    </p>
 
-            <br><br>
-            <section class="uno">
-                <table>
-                <img src="img/directa.jpg" width="250" height="150">
-                <h2>Directa</h2>
-                <p class="parrafo">La regla de tres simple directa se utiliza cuando el problema trata de dos magnitudes directamente proporcionales. 
-                    Podemos decir que dos magnitudes son directamente proporcionales cuando al multiplicar o dividir una de ellas por un número, 
-                    la otra queda multiplicada o dividida respectivamente por el mismo número.
-                    <a href="#" class="Leer mas">leer más</a> <br> <br>
-                </p>
-            </table>
-            </section>
+                    <h3>Simple</h3>
+                    <p class="text-center">
+                        Colocaremos en una tabla los 3 datos (a los que llamamos “a”, “b” y “c”) y la 
+                        incógnita, es decir, el dato que queremos averiguar (que llamaremos “x”). 
+                        Después, aplicaremos la siguiente fórmula:
+                    </p>
+                    <img src="img/fomula directa.webp" class="img-fluid" alt="responsive image" width="20%" height="auto">
+                    
+                    <p class="my-2">
+                        Para ver un ejemplo, vamos a resolver el mismo problema de proporcionalidad directa que vimos 
+                        la semana pasada, ahora aplicando la regla de 3 simple:<br><br>
+                        Llegar al hotel nos han dado un mapa con los lugares de interés de la ciudad, y nos han dicho 
+                        que 5 centímetros del mapa representan 600 metros de la realidad. Hoy queremos ir a un parque 
+                        que se encuentra a 8 centímetros del hotel en el mapa. ¿A qué distancia del hotel se encuentra
+                        este parque?<br><br>
+                        Vamos a hacer la tabla con los 3 datos y la incógnita (“x”), y hallaremos “x” 
+                        con la fórmula que acabamos de aprender:<br><br>
+                    </p>
+                    <img src="img/ejercicio_hecho.png" class="img-fluid" alt="responsive image" width="15%" height="auto">
+                </div>
 
-            <section class="dos">
-                <table>
-                <img src="img/inversa.jpg" width="250" height="150">
-                <h2>Inversa</h2>
-                <p class="parrafo">La regla de tres simple inversa se utiliza cuando el problema trata de dos magnitudes inversamente proporcionales. 
-                    Podemos decir que dos magnitudes son inversamente proporcionales cuando al multiplicar una de ellas por un número, la otra se divide por el mismo, y viceversa.
-                <a href="#" class="Leer mas">leer más</a> <br> <br>
-                </p>
-                </table>
-            </section>
+                <!--Aquí comienza la compuesta-->
+                <div class="text-center my-3">
+                    <h3>Compuesta</h3>
+
+                    <p>
+                        La regla de tres compuesta se emplea cuando se relacionan tres o más magnitudes, 
+                        de modo que a partir de las relaciones establecidas entre las magnitudes conocidas 
+                        obtenemos la desconocida. Una regla de tres compuesta se compone de varias reglas 
+                        de tres simples aplicadas sucesivamente. Como entre las magnitudes se pueden 
+                        establecer relaciones de proporcionalidad directa o inversa, podemos distinguir 
+                        tres casos de regla de tres compuesta.
+                    </p>
+
+                    <h5>
+                        Ejemplo de regla de 3 compuesta con las dos proporcionalidades directas regla de 3
+                        compuesta
+                    </h5>
+
+                    <p class="my-3">
+                        Hemos ido a la fuente del pueblo para recoger agua. 
+                        Sabemos que 5 botellas de agua, de 2 litros cada una, pesan 10 kilos. 
+                        ¿Cuánto pesan 2 botellas de 3 litros cada una? Las tres magnitudes que tenemos 
+                        en el problema son: botellas, litros y kilos. Escribimos la relación entre ellas 
+                        sabiendo que: <br><br>
+
+                        5 botellas, 2 litros, 10 kilos <br>
+                        2 botellas, 3 litros, X kilos <br><br>
+                        
+                        Ahora tenemos que averiguar la relación entre las magnitudes, comparando siempre
+                        con la magnitud donde esté la incógnita X. Comparamos botellas con kilos: Si hay menos 
+                        botellas entonces pesarán menos. Tienen proporcionalidad directa. Comparamos 
+                        litros con kilos: Si hay más litros entonces pesarán más. Tienen proporcionalidad directa.
+                        <br><br>
+
+                        Ahora tenemos que averiguar la relación entre las magnitudes, comparando siempre 
+                        con la magnitud donde esté la incógnita X. Comparamos botellas con kilos: Si hay
+                        menos botellas entonces pesarán menos. Tienen proporcionalidad directa. 
+                        Comparamos litros con kilos: Si hay más litros entonces pesarán más. 
+                        Tienen proporcionalidad directa.
+                    </p>
+
+                    <img src="img/proceso" class="img-fluid" alt="responsive image" width="15%" height="auto">
+
+                    <p>
+                        Ahora, escribimos las relaciones en forma de fracción para poder despejar la incógnita 
+                        X. La primera fracción es donde está la incógnita (esto no es obligatorio, pero ayuda 
+                        para después resolverlo). Después, igualamos a la multiplicación de las dos fracciones:
+                    </p>
+
+                    <img src="img/proceso 2" class="img-fluid" alt="responsive image" width="15%" height="auto">
+
+                    <p class="my-3">Y resolvemos: </p>
+
+                    <img src="img/proceso3" class="img-fluid" alt="responsive image" width="15%" height="auto">
+
+                    <p>Podemos despejar la X haciendo los productos cruzados:</p>
+
+                    <img src="img/proceso4.webp" class="img-fluid" alt="responsive image" width="15%" height="auto">
+
+                    <p class="mt-3">2 botellas, de 3 litros cada una, pesan 6 kilos.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <footer>
-    <p> 
-        (c) Todos los derechos reservados - 2020 <br>
-        Diseñado por Gerson Josue Cruz Guido<br>
-        Hanzel Geovany Urrutia Vanegas<br>
-        Roswil Ulises Lopez Montano
-    </p>
+        <p class="text-center"> 
+            (c) Todos los derechos reservados - 2020 <br>
+            Diseñado por Hanzel Urrutia
+        </p>
     </footer>
-       </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
